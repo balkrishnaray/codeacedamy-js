@@ -1,0 +1,18 @@
+body{
+background-image: url('passenger.jpg');
+background-size: cover;
+color: white;
+}
+
+button{
+    border: none;
+    padding: 12px 10px;
+    border-radius: 5px;
+
+}
+#increment-btn{
+    background-color: darkred;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
