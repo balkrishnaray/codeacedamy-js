@@ -3,6 +3,8 @@ body{
     background:rgb(250, 158, 158);
     background-image: url('chocolate.jpeg');
     background-repeat: no-repeat;
+    background-position:45cap;
+
 }
 
 
@@ -12,5 +14,22 @@ button{
     border: none;
     background-color: red;
     color: white;
+    font-size: 20px;
 
+}
+#buy-btn{
+   
+        padding: 12px 63px;
+        margin-top: 8px;
+        border-radius: 8px;
+        border: none;
+        background-color:green;
+        color: white;
+        font-size: 20px; 
+    
+}
+
+#previous-el{
+    font-size: 20px;
+    color: white;
 }
