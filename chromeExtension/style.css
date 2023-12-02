@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding:10px;
+    min-width: 400px;
     
 }
 
@@ -22,7 +23,45 @@ body{
 input{
     padding-left: 10px;
     padding-right: 10px;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
+    
 }
 
+ul{
+list-style: none;
+padding-left: 0;
+margin-top: 20px;
+
+}
+
+li{
+   margin-top: 3px;
+
+}
+
+a{
+   color: rgb(28, 133, 133);
+}
+
+#delete-btn{
+    padding: 5px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: darkcyan 1px solid;
+    color: darkcyan;
+    font-weight: bold  ;
+}
+
+#tab-btn{
+    
+        padding: 5px;
+        margin-left: 3px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background: darkcyan;
+        font-weight: bold  ;
+    
+    
+}
