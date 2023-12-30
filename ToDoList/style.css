@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(todo.jpg) no-repeat center center /cover;   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#task-add-holder{
+   width: 350px;
+   padding: 20px 10px;
+   background-color: white; 
+   border-radius: 20px;
+   box-shadow: 0 0 3px;
+   display: flex;
+   
+}
+
+input{
+    flex: 5;
+    margin-right: 10px; 
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task-btn{
+    background-color: white;
+    color: green;   
+    border: green solid 2px ;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    flex: 1;
+    transition: .3s;
+}
+
+#add-task-btn:hover{
+    color: white;
+    background-color: green;
+}
+
