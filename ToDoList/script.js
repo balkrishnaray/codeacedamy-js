@@ -23,5 +23,20 @@ addTask.addEventListener("click", function () {
   deleteButton.classList.add("deleteTask");
   task.appendChild(deleteButton);
 
- 
+  if (inputTask.value === "") {
+    alert("Please enter a task");
+  } else {
+    taskContainer.appendChild(task);
+  }
+
+  inputTask.value = "";
+
+  checkButton.addEventListener("click", function () {
+    checkButton.parentElement.style.textDecoration = "line-through";
+  });
+
+  deleteButton.addEventListener("click", function (e) {
+    let target = e.target;
+    target.parentElement.parentElement.remove();
+  });
 });
