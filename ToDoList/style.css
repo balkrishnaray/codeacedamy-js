@@ -63,5 +63,31 @@ input{
     margin: 10px;
 }
 
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+}
 
+.task .checkTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1rem;
+}
+.task .deleteTask{
+    color: red;
+    border: solid 2px red;
+    font-size: 1.2rem;
+}
+
+.task .checkTask:hover{
+    color: white;
+    background-color: rgb(235, 165, 36);   
+}
+
+.task .deleteTask:hover{
+    color: white;
+    background-color: rgb(245, 36, 36);
+}
 
