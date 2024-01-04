@@ -18,5 +18,10 @@ addTask.addEventListener("click", function () {
   checkButton.classList.add("checkTask");
   task.appendChild(checkButton);
 
-  
+  let deleteButton = document.createElement("button");
+  deleteButton.innerHTML = `<i class="fa fa-trash"></i>`;
+  deleteButton.classList.add("deleteTask");
+  task.appendChild(deleteButton);
+
+ 
 });
